@@ -1,0 +1,171 @@
+Data Handling:-->
+==============================
+database:-->
+======================
+application:-->
+1.frontend:-->design
+2.backend-->coding
+3.database-->table-->row,col-->MySQL,sql,oracle.
+============================
+what is data?
+data is a piece of information.
+database:-->it is collection of information.
+
+--->folder-->
+table-->store-->row,column.-->tabular.
+------------------------------------------------
+where to used database?
+e.g-->application:-->
+
+1.bank:-->
+customer-->id,name,dob,add,city,state.
+account-->acc,no,name,type.
+transaction:->custid,acc_no,transa_id,with,dep,che.
+salary-->net sal,gross_sal.
+statement bank.history-->transaction.
+
+last 6 month.
+fail-->dep,with
+----------------------------------------------------------------------
+2.college:
+student
+year
+academic
+year pass out-->
+
+3.shopping:-->primary key,foreign key
+product-->
+customer-->
+order-->
+payment:-->
+shipping:-->
+delievered-->
+
+4.university:
+
+5.indian railway:-->registration,login.
+booking-->ticket-->payment.
+last 3 month-->
+=========================================
+ssc,hsc-->hall tick-->
+
+request-->server-->database-->table-->ssc,hsc,fy-->hall ticket.
+
+response.
+===========================================
+where data is not used?
+
+1.hotel:-->food-->menu-->order-->eat-->payment-->print bill.-->paper.
+
+2.metro:-->start journey,end,return-->payment-->print-->paper.
+======================================
+MySQL:feature
+-----------------------------------------
+1.DDL:Data Defination lang
+create,select,drop,alter.
+
+2.DML:Data Manipulation lang:
+insert,update,delete.
+
+3.DCL:Data Control Lang:
+grant,revoke,deny.
+===================================
+syntax of creation of table:
+----------------------------------------------------------------
+create database jos;
+----------------------------------------------------------------
+use jos;
+----------------------------------------------------------------
+create table name(Column name datatype,.....)
+
+create table emp(emp_id int, emp_nm varchar(30),salary int);
+--------------------------------------------------------------------------------------
+insert record:
+===============================================
+insert into name values()
+--------------------------------------------------------------------------------------
+insert into emp values(101,'sonal',45000)
+
+insert into emp (emp_id,emp_nm,salary)values(101,'sonal',45000)
+===============================================
+view the record:
+--------------------------------------------------------------------------------------
+select * from tablename
+select * from emp
+
+select emp_id,salary  from  emp
+========================================
+add column-->table.
+========================================
+alter table name add column name datatype:
+-------------------------------------------------------------------------
+alter table emp add age int
+========================================
+update record:-->change the record.
+--------------------------------------------------------------------------
+update table
+set columnname=value
+where columnname=value
+
+update emp
+set age=22
+where emp_id=111
+=========================================
+delete:-->row delete.
+---------------------------------------------------------------------------
+delete from table where column=value
+
+delete from emp where emp_id=333
+------------------------------------------------
+delete * from table--->all record
+
+delete * from emp
+----------------------------------------------
+delete column:
+===========================
+alter table name drop column name
+
+alter table emp drop column age;
+===========================
+drop table name
+
+drop table emp
+=============================
+
+MySQL:
+
+python:-->mysql-->connect-->read all data from mysql data.
+==================================
+connector-->
+
+3 point remember:-->
+user
+localhost:root
+pwd:excellenc
+
+val=(45000,111)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
